@@ -1,7 +1,6 @@
 class PagesController < ApplicationController
-  def home
+  def lizard
+    @lizards = "🦎" * (params[:number]).to_i
   end
 
-  def about
-  end
 end
