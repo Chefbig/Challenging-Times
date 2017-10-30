@@ -159,6 +159,8 @@ So, continuing the Vehicle model example, the /vehicles/1 URL would display the 
 
 * Add some CSS styling to your application to style your various pages.
 
+    add [mian.scss](app/assets/stylesheets/main.scss) in the folder app/assets/stylesheets/ 
+
 ## PART SEVEN - GIT’R DONE
 
 * Create a new repo on github call “Challenging-Times”.
