@@ -3,8 +3,9 @@
 
 <div class="product">
   <p>
-    <strong>Name: </strong> <%= @product.name %>
+    <strong>Name: </strong> <%= link_to @product.name, product_path(@product) %>
   </p>
   <p><strong>Price: </strong><%= @product.price %></p>
   <p><strong>Quantity: </strong> <%= @product.quantity %></p>
+  <p><%= link_to 'Back', products_path %></p>
 </div>
