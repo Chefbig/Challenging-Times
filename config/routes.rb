@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  #get 'products/view'
+
+  get 'products', to: 'products#view', as: 'products'
+  get 'products/:id', to: 'products#view', as: 'product', id: /\d+/
+
+
   #get 'pages/lizard'
   get 'lizard/:number', to: 'pages#lizard', as: 'lizards', number: /\d+/
   #get 'pages/home'
