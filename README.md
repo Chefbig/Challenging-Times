@@ -5,6 +5,8 @@ application up and running.
 
 Things you may want to cover:
 
+* [Steps to follow](steps.MD)
+
 * Ruby version
 
 * System dependencies
