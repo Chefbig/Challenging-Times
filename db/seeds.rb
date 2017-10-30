@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 100.times do
-  Product.create(name: Faker::Beer.name, quantity: Faker::Number.number(3), price: Faker::Number.decimal(2) )
+  Product.create(name: Faker::Book.unique.title, quantity: Faker::Number.number(3), price: Faker::Number.decimal(2) )
 end
