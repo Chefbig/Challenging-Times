@@ -2,5 +2,5 @@
 <p>Find me in app/views/products/index.html.erb</p>
 
 <% @products.each do |product| %>
-<%= render partial: product %>
+<%= render partial: product, locals: {display_product_link: true} %>
 <% end %>

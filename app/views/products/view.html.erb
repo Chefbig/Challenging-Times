@@ -2,5 +2,5 @@
 <p>Find me in app/views/products/view.html.erb</p>
 
 
-<%= render partial: 'product', object: @product %>
+<%= render partial: 'product', object: @product, locals: {display_product_link: false}%>
 <p><%= link_to 'Back', products_path %></p>
